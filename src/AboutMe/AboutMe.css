@@ -1,0 +1,31 @@
+.aboutMe{
+    height: 100vh;
+    background: #796A50;
+    padding: 0px 100px 0;
+
+    font-family: "Lexend", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    overflow: hidden;
+
+    /* display: grid;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    flex-direction: column; */
+
+    h2{
+        text-align: center;
+        text-transform: uppercase;
+        margin-top: 75px;
+    }
+
+    p{
+        /* color: hsla(0, 0%, 0%, 1); */
+        font-size: 1.5rem;
+        line-height: 1.75rem;
+        margin: 0;
+        padding-bottom: 20px;
+    }
+}
