@@ -14,8 +14,7 @@ import Contact from './routes/Contact.jsx';
 
 const homepageData={
   mainTitle: "Nicole Tringali",
-  subTitle: "Content Strategist + Copywriter",
-  portraitCopy: "I am both a Direct Marketing Association Certified professional AND an Associate Creative Director with over 15 years of experience as a content strategist and copywriter. I am passionate about my work and I get real results. Want to see? Reach out!",
+  subTitle: "Content Strategist + Copywriter"
 };
 
 createRoot(document.getElementById('root')).render(

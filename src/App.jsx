@@ -21,11 +21,6 @@ export default function App() {
 
   return (
     <>
-      {/* <Navigation/>
-      <Homepage homepageData={homepageData}></Homepage>
-      <AboutMe></AboutMe>
-      <Portfolio></Portfolio>
-      <HireMe></HireMe> */}
       <Navbar/>
     </>
   )
