@@ -64,11 +64,12 @@ const EMails = () => {
 
   return (
     <>
-      <h1>Direct Marketing Emails</h1>
-      {/* <div dangerouslySetInnerHTML={markup} /> */}
-      <PkgBlog id="FundsInHolding" items={fih_blog} markup={fih_Markup} />
-      <PkgBlog id="LittleJohnny" items={ljk_blog} markup={ljk_Markup} />
-      <PkgBlog id="UnclaimedFunds" items={ucf_blog} markup={ucf_Markup} />
+      <div className='blogsMain'>
+        <h1>Direct Marketing Emails</h1>
+        <PkgBlog id="FundsInHolding" items={fih_blog} markup={fih_Markup} />
+        <PkgBlog id="LittleJohnny" items={ljk_blog} markup={ljk_Markup} />
+        <PkgBlog id="UnclaimedFunds" items={ucf_blog} markup={ucf_Markup} />
+      </div>
     </>
   )
 }
