@@ -1,10 +1,9 @@
 import React from 'react'
-import HireMe from '../components/HireMe/HireMe'
-// import './HireMe/HireMe.css'
+import AboutMe from '../components/AboutMe/AboutMe'
 const About = () => {
   return (
     <>
-        <HireMe></HireMe>
+        <AboutMe></AboutMe>
     </>
   )
 }

@@ -1,9 +1,9 @@
 import React from 'react'
-
+import HireMe from '../components/HireMe/HireMe'
 const Contact = () => {
   return (
     <>
-        <h2>Contact page</h2>
+        <HireMe></HireMe>
     </>
   )
 }

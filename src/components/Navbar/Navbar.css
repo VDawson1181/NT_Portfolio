@@ -40,6 +40,12 @@ nav{
                 opacity: 0.7;
                 text-transform: uppercase;
                 text-shadow: 0px 0px 10px hsla(0, 0%, 0%, 0.75);
+
+                font-family: "Lexend", sans-serif;
+                font-optical-sizing: auto;
+                font-weight: 400;
+                font-style: normal;
+                
                     &:hover{
                         opacity: 1;
                     }

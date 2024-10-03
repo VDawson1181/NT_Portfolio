@@ -9,7 +9,7 @@ import About from './routes/About.jsx';
 import Portfolio from './routes/Portfolio.jsx';
 import Blogs from './routes/Blogs.jsx';
 import EMails from './routes/Emails.jsx';
-import Contact from './routes/About.jsx';
+import Contact from './routes/Contact.jsx';
 
 const homepageData={
   mainTitle: "Nicole Tringali",
