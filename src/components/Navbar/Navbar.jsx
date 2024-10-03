@@ -10,9 +10,14 @@ const Navbar = () => {
         </div>
         <div className="navRightSide">            
             <NavLink to="/NT_Portfolio/about">About Me</NavLink>
-            <NavLink to="/NT_Portfolio/portfolio">Packages</NavLink>
-            <NavLink to="/NT_Portfolio/Blogs">Blogs</NavLink>
-            <NavLink to="/NT_Portfolio/Emails">Emails</NavLink>
+            <div className="subnav">
+              <div className="subnavbtn">Portfolio</div>
+              <div className="subnav-content">
+                <NavLink to="/NT_Portfolio/portfolio">Packages</NavLink>
+                <NavLink to="/NT_Portfolio/Blogs">Blogs</NavLink>
+                <NavLink to="/NT_Portfolio/Emails">Emails</NavLink>
+              </div>
+            </div>
             <NavLink to="/NT_Portfolio/contact">Hire Me!</NavLink>
         </div>
     </nav>

@@ -16,7 +16,7 @@ nav{
     .navLeftSide a{
         font-size: 2rem;
         color: #fff;
-        padding-left: 50px;
+        padding-left: 25px;
         /* cursor: pointer; */
         transition: opacity 0.2s;
         text-shadow: 0px 0px 10px hsla(0, 0%, 0%, 0.75);
@@ -30,30 +30,50 @@ nav{
     .navRightSide{
         display: flex;
         justify-content: flex-end;
+        padding-right: 50px;
         gap: 50px;
 
-            & a{
-                color: #fff;
-                /* cursor: pointer; */
+        color: #fff;
+        font-family: "Lexend", sans-serif;
+        font-optical-sizing: auto;
+        font-weight: 400;
+        font-style: normal;
+        text-transform: uppercase;
+
+            a, .subnavbtn{
+                cursor: pointer;
                 text-decoration: none;
                 transition: opacity 0.2s;
                 opacity: 0.7;
-                text-transform: uppercase;
                 text-shadow: 0px 0px 10px hsla(0, 0%, 0%, 0.75);
-
-                font-family: "Lexend", sans-serif;
-                font-optical-sizing: auto;
-                font-weight: 400;
-                font-style: normal;
+                color: #fff;
                 
-                    &:hover{
-                        opacity: 1;
-                    }
+                &:hover{
+                    opacity: 1;
+                }
             }
 
+            .subnav, .subnav:hover, .subnav-content, .subnav-content:hover, .subnavbtn:hover+.subnav-content{
+                display: flex;
+                flex-wrap: nowrap;
+                flex-direction: column;
+                
+            }
+            .subnav-content{
+                display: none;
+                position: absolute;
+                transform: translate(-16px, -22px);
+                background-color: rgba(121,106,80,1);
+                box-shadow: 0 0 7px rgba(255, 255, 255, 0.25);
+                backdrop-filter: blur(15px);
+                padding: 20px;
+                border-radius: 0 0 20px 20px;
+                text-align: center;
+                transition: all 250ms cubic-bezier(0.250, 0.250, 0.750, 0.750);
+            }
     }
 
-    div{
+    .navLeftSide, .navRightSide{
         display: grid;
         grid-template-columns: repeat(3,1fr);
     }
