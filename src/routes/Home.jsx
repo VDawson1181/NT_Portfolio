@@ -13,9 +13,11 @@ const Home = ({homepageData:{mainTitle, subTitle, portraitCopy}}) => {
             <h2>{subTitle}</h2>
             <hr />
             <h3>Words Matter!</h3>
-            <p>Grow Your Business With Strong, Compelling Copy That Increases Conversion <br /> And Boosts Sales Crafted By A Copywriter Who Actually GETS Marketing</p>
+            <p>Grow Your Business With Strong, Compelling Copy That Increases Conversion <br /> And Boosts Sales Crafted By A Copywriter Who Actually GETS Marketing.</p>
+            <br />
             <p>Want killer content that gets more traffic, better (quality!) leads, and a sweet, sweet lift to your overall sales?</p>
-            <p> You need a persuasive content copywriter who understands both creative and marketing strategy. <br /> That&#39;s where I come in.</p>
+            <p>You need a persuasive content copywriter who understands both creative and marketing strategy. <br /> That&#39;s where I come in.</p>
+            <p>Let's Connect - Email: <a href="mailto:Nicoletringali@gmail.com">Nicoletringali@gmail.com</a></p>
             </div>
         </div>
         </section>
