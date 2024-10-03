@@ -41,7 +41,7 @@ const Portfolio = () => {
                     <li>Money Tree Interactive Game</li>
                     <li>Positive Impact</li>
                     <li>Uncut Checks</li>
-                    <li>We're Getting Close</li>
+                    <li>We&apos;re Getting Close</li>
                 </ul>
 
                 <div className="pkg_presentation">
@@ -59,8 +59,8 @@ const Portfolio = () => {
             <section className='blogs'>
                 <h2>Blogs</h2>
                 <ul>
-                    <li>Perfect Body - Top 10 Perfect Body Laser Skincare Products We're Obsessing Over (And Why You Should Be, Too!)</li>
-                    <li>Perfect Body - The 7 Benefits of the NEW Emsculpt (And Why It's A Godsend For Athletes!)</li>
+                    <li>Perfect Body - Top 10 Perfect Body Laser Skincare Products We&apos;re Obsessing Over (And Why You Should Be, Too!)</li>
+                    <li>Perfect Body - The 7 Benefits of the NEW Emsculpt (And Why It&apos;s A Godsend For Athletes!)</li>
                     <li>Perfect Body - Can I Get Laser Hair Removal On My Whole Body?</li>
                     <li>PCH - Real News vs. Fake News: How can you tell?</li>
                     <li>PCH - A Perfect Fit: Online Jigsaw Puzzles at PCH.com Games and YOU!</li>
