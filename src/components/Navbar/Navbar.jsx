@@ -16,6 +16,7 @@ const Navbar = () => {
                 <NavLink to="/NT_Portfolio/portfolio">Packages</NavLink>
                 <NavLink to="/NT_Portfolio/Blogs">Blogs</NavLink>
                 <NavLink to="/NT_Portfolio/Emails">Emails</NavLink>
+                <NavLink to="/NT_Portfolio/Lotto">Lotto Cards</NavLink>
               </div>
             </div>
             <NavLink to="/NT_Portfolio/contact">Hire Me!</NavLink>

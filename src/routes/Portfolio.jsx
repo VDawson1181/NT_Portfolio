@@ -2,39 +2,39 @@ import React from 'react'
 import PkgArticle from '../components/Pkg_Article/PkgArticle';
 import { Outlet } from 'react-router-dom';
 // Good things images
-import goodThings1 from '../../src/assets/portfolio/_Packages/Good_Things/GTEmail.png';
-import goodThings2 from '../../src/assets/portfolio/_Packages/Good_Things/GTPkg1.png';
-import goodThings3 from '../../src/assets/portfolio/_Packages/Good_Things/GTPkg2.png';
+import goodThings1 from '../assets/portfolio/_Packages/Good_Things/GTEmail.png';
+import goodThings2 from '../assets/portfolio/_Packages/Good_Things/GTPkg1.png';
+import goodThings3 from '../assets/portfolio/_Packages/Good_Things/GTPkg2.png';
 // Money Tree images
-import moneyTree1 from '../../src/assets/portfolio/_Packages/Money_Tree/MoneyTree1.png';
-import moneyTree2 from '../../src/assets/portfolio/_Packages/Money_Tree/MoneyTree2.png';
-import moneyTree3 from '../../src/assets/portfolio/_Packages/Money_Tree/MoneyTree3.png';
-import moneyTree4 from '../../src/assets/portfolio/_Packages/Money_Tree/MoneyTree4.png';
-import moneyTree5 from '../../src/assets/portfolio/_Packages/Money_Tree/MoneyTree5.png';
-import moneyTree6 from '../../src/assets/portfolio/_Packages/Money_Tree/MoneyTree6.png';
+import moneyTree1 from '../assets/portfolio/_Packages/Money_Tree/MoneyTree1.png';
+import moneyTree2 from '../assets/portfolio/_Packages/Money_Tree/MoneyTree2.png';
+import moneyTree3 from '../assets/portfolio/_Packages/Money_Tree/MoneyTree3.png';
+import moneyTree4 from '../assets/portfolio/_Packages/Money_Tree/MoneyTree4.png';
+import moneyTree5 from '../assets/portfolio/_Packages/Money_Tree/MoneyTree5.png';
+import moneyTree6 from '../assets/portfolio/_Packages/Money_Tree/MoneyTree6.png';
 // Positive Impact images
-import piEmailTop from '../../src/assets/portfolio/_Packages/Positive_Impact/PIEmailTop.png';
-import piEmailMid from '../../src/assets/portfolio/_Packages/Positive_Impact/PIEmailMid.gif';
-import piEmailBod from '../../src/assets/portfolio/_Packages/Positive_Impact/PIEmailBody.png';
-import positiveImpact1 from '../../src/assets/portfolio/_Packages/Positive_Impact/PIPkg1.png';
-import positiveImpact2 from '../../src/assets/portfolio/_Packages/Positive_Impact/PIPkg2.png';
-import positiveImpact3 from '../../src/assets/portfolio/_Packages/Positive_Impact/PIPkg3.png';
-import positiveImpact4 from '../../src/assets/portfolio/_Packages/Positive_Impact/PIPkg4.png';
+import piEmailTop from '../assets/portfolio/_Packages/Positive_Impact/PIEmailTop.png';
+import piEmailMid from '../assets/portfolio/_Packages/Positive_Impact/PIEmailMid.gif';
+import piEmailBod from '../assets/portfolio/_Packages/Positive_Impact/PIEmailBody.png';
+import positiveImpact1 from '../assets/portfolio/_Packages/Positive_Impact/PIPkg1.png';
+import positiveImpact2 from '../assets/portfolio/_Packages/Positive_Impact/PIPkg2.png';
+import positiveImpact3 from '../assets/portfolio/_Packages/Positive_Impact/PIPkg3.png';
+import positiveImpact4 from '../assets/portfolio/_Packages/Positive_Impact/PIPkg4.png';
 // Uncut Checks images
-import UCEmail from '../../src/assets/portfolio/_Packages/Uncut_Checks/UCEmail.png';
-import UCimg1 from '../../src/assets/portfolio/_Packages/Uncut_Checks/UC1.png';
-import UCimg2 from '../../src/assets/portfolio/_Packages/Uncut_Checks/UC2.png';
-import UCimg3 from '../../src/assets/portfolio/_Packages/Uncut_Checks/UC3.png';
-import UCimg4 from '../../src/assets/portfolio/_Packages/Uncut_Checks/UC4.png';
-import UCimg5 from '../../src/assets/portfolio/_Packages/Uncut_Checks/UC5.png';
+import UCEmail from '../assets/portfolio/_Packages/Uncut_Checks/UCEmail.png';
+import UCimg1 from '../assets/portfolio/_Packages/Uncut_Checks/UC1.png';
+import UCimg2 from '../assets/portfolio/_Packages/Uncut_Checks/UC2.png';
+import UCimg3 from '../assets/portfolio/_Packages/Uncut_Checks/UC3.png';
+import UCimg4 from '../assets/portfolio/_Packages/Uncut_Checks/UC4.png';
+import UCimg5 from '../assets/portfolio/_Packages/Uncut_Checks/UC5.png';
 // We're getting close
-import wgcEmail from '../../src/assets/portfolio/_Packages/Were_getting_Close/wgcEmail.png';
-import wgcimg1 from '../../src/assets/portfolio/_Packages/Were_getting_Close/wgc1.png';
-import wgcimg2 from '../../src/assets/portfolio/_Packages/Were_getting_Close/wgc2.png';
-import wgcimg3 from '../../src/assets/portfolio/_Packages/Were_getting_Close/wgc3.png';
-import wgcimg4 from '../../src/assets/portfolio/_Packages/Were_getting_Close/wgc4.png';
-import wgcimg5 from '../../src/assets/portfolio/_Packages/Were_getting_Close/wgc5.png';
-import wgcimg6 from '../../src/assets/portfolio/_Packages/Were_getting_Close/wgc6.png';
+import wgcEmail from '../assets/portfolio/_Packages/Were_getting_Close/wgcEmail.png';
+import wgcimg1 from '../assets/portfolio/_Packages/Were_getting_Close/wgc1.png';
+import wgcimg2 from '../assets/portfolio/_Packages/Were_getting_Close/wgc2.png';
+import wgcimg3 from '../assets/portfolio/_Packages/Were_getting_Close/wgc3.png';
+import wgcimg4 from '../assets/portfolio/_Packages/Were_getting_Close/wgc4.png';
+import wgcimg5 from '../assets/portfolio/_Packages/Were_getting_Close/wgc5.png';
+import wgcimg6 from '../assets/portfolio/_Packages/Were_getting_Close/wgc6.png';
 
 
 const Portfolio = () => {
@@ -144,16 +144,14 @@ const Portfolio = () => {
   ];
 
   return (
-    <>
+    <div className='packagesMain'>
       <h1>Packages</h1>
       <PkgArticle id="goodThings" items={gt_users} images={gt_images}/>
       <PkgArticle id="moneyTree" items={mt_users} images={mt_images}/>
       <PkgArticle id="positiveImpact" items={pi_users} images={pi_images}/>
       <PkgArticle id="uncutChecks" items={uc_users} images={uc_images}/>
       <PkgArticle id="weGettinClose" items={wgc_users} images={wgc_images}/>
-
-      <Outlet/>
-    </>
+    </div>
   )
 }
 

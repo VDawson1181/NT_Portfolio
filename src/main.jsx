@@ -9,6 +9,7 @@ import About from './routes/About.jsx';
 import Portfolio from './routes/Portfolio.jsx';
 import Blogs from './routes/Blogs.jsx';
 import EMails from './routes/Emails.jsx';
+import LottoCards from './routes/LottoCards.jsx';
 import Contact from './routes/Contact.jsx';
 
 const homepageData={
@@ -27,6 +28,7 @@ createRoot(document.getElementById('root')).render(
         <Route path='/NT_Portfolio/portfolio' element={<Portfolio/>}></Route>
         <Route path='/NT_Portfolio/blogs' element={<Blogs/>}></Route>
         <Route path='/NT_Portfolio/emails' element={<EMails/>}></Route>
+        <Route path='/NT_Portfolio/lotto' element={<LottoCards/>}></Route>
         <Route path='/NT_Portfolio/contact' element={<Contact/>}></Route>
       </Routes>
     </BrowserRouter>
