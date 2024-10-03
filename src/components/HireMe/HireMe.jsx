@@ -1,4 +1,5 @@
 import React from 'react'
+import './HireMe.css'
 
 const HireMe = () => {
   return (
