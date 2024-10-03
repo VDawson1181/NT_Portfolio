@@ -40,12 +40,12 @@ const Portfolio = () => {
                     <li>Good Things Are Headed Your Way</li>
                     <li>Money Tree Interactive Game</li>
                     <li>Positive Impact</li>
-                    <li>UNCUT CHECKS</li>
+                    <li>Uncut Checks</li>
                     <li>We're Getting Close</li>
                 </ul>
 
                 <div className="pkg_presentation">
-                    <div className="good_Things">
+                    {/* <div className="good_Things">
                         <h2>Good Things Are Headed Your Way</h2>
                         <div className="topCopy">
                             <span>Objective</span>
@@ -53,7 +53,7 @@ const Portfolio = () => {
                             <span>The idea for this version: </span>
                             <p>Show a modern, animated email that gives a bold statement regarding this recent order and teases a special reward incentive that's waiting for them on the landing page. It's an interactive balloon pop experience on the LP that reveals the discount.</p>
                         </div>
-                    </div>
+                    </div> */}
                 </div>
             </section>
             <section className='blogs'>
@@ -74,6 +74,12 @@ const Portfolio = () => {
                             <li key={index}><span>{lottoCard.name}</span><img src={lottoCard.card} alt={lottoCard.name} loading='lazy'/></li>
                         ))
                     }                    
+                </ul>
+            </section>
+            <section className='EMails'>
+                <h2>EMails</h2>
+                <ul>
+                                  
                 </ul>
             </section>
             {/* <section className="pf_packages">
