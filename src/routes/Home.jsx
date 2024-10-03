@@ -1,4 +1,5 @@
 import React from 'react'
+import '../components/Home/Home.css'
 
 const Home = ({homepageData:{mainTitle, subTitle, portraitCopy}}) => {
   return (

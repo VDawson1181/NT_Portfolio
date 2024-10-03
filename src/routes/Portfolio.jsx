@@ -2,13 +2,40 @@ import React from 'react'
 import PkgArticle from '../components/Pkg_Article/PkgArticle';
 import { Outlet } from 'react-router-dom';
 // Good things images
-import goodThings1 from '../../src/assets/portfolio/Packages/Good_Things/GTEmail.png';
-import goodThings2 from '../../src/assets/portfolio/Packages/Good_Things/GTEmail.png';
-import goodThings3 from '../../src/assets/portfolio/Packages/Good_Things/GTEmail.png';
+import goodThings1 from '../../src/assets/portfolio/_Packages/Good_Things/GTEmail.png';
+import goodThings2 from '../../src/assets/portfolio/_Packages/Good_Things/GTPkg1.png';
+import goodThings3 from '../../src/assets/portfolio/_Packages/Good_Things/GTPkg2.png';
 // Money Tree images
-import moneyTree1 from '../../src/assets/portfolio/Packages/Money_Tree/MoneyTree1.png';
-import moneyTree2 from '../../src/assets/portfolio/Packages/Money_Tree/MoneyTree2.png';
-import moneyTree3 from '../../src/assets/portfolio/Packages/Money_Tree/MoneyTree3.png';
+import moneyTree1 from '../../src/assets/portfolio/_Packages/Money_Tree/MoneyTree1.png';
+import moneyTree2 from '../../src/assets/portfolio/_Packages/Money_Tree/MoneyTree2.png';
+import moneyTree3 from '../../src/assets/portfolio/_Packages/Money_Tree/MoneyTree3.png';
+import moneyTree4 from '../../src/assets/portfolio/_Packages/Money_Tree/MoneyTree4.png';
+import moneyTree5 from '../../src/assets/portfolio/_Packages/Money_Tree/MoneyTree5.png';
+import moneyTree6 from '../../src/assets/portfolio/_Packages/Money_Tree/MoneyTree6.png';
+// Positive Impact images
+import piEmailTop from '../../src/assets/portfolio/_Packages/Positive_Impact/PIEmailTop.png';
+import piEmailMid from '../../src/assets/portfolio/_Packages/Positive_Impact/PIEmailMid.gif';
+import piEmailBod from '../../src/assets/portfolio/_Packages/Positive_Impact/PIEmailBody.png';
+import positiveImpact1 from '../../src/assets/portfolio/_Packages/Positive_Impact/PIPkg1.png';
+import positiveImpact2 from '../../src/assets/portfolio/_Packages/Positive_Impact/PIPkg2.png';
+import positiveImpact3 from '../../src/assets/portfolio/_Packages/Positive_Impact/PIPkg3.png';
+import positiveImpact4 from '../../src/assets/portfolio/_Packages/Positive_Impact/PIPkg4.png';
+// Uncut Checks images
+import UCEmail from '../../src/assets/portfolio/_Packages/Uncut_Checks/UCEmail.png';
+import UCimg1 from '../../src/assets/portfolio/_Packages/Uncut_Checks/UC1.png';
+import UCimg2 from '../../src/assets/portfolio/_Packages/Uncut_Checks/UC2.png';
+import UCimg3 from '../../src/assets/portfolio/_Packages/Uncut_Checks/UC3.png';
+import UCimg4 from '../../src/assets/portfolio/_Packages/Uncut_Checks/UC4.png';
+import UCimg5 from '../../src/assets/portfolio/_Packages/Uncut_Checks/UC5.png';
+// We're getting close
+import wgcEmail from '../../src/assets/portfolio/_Packages/Were_getting_Close/wgcEmail.png';
+import wgcimg1 from '../../src/assets/portfolio/_Packages/Were_getting_Close/wgc1.png';
+import wgcimg2 from '../../src/assets/portfolio/_Packages/Were_getting_Close/wgc2.png';
+import wgcimg3 from '../../src/assets/portfolio/_Packages/Were_getting_Close/wgc3.png';
+import wgcimg4 from '../../src/assets/portfolio/_Packages/Were_getting_Close/wgc4.png';
+import wgcimg5 from '../../src/assets/portfolio/_Packages/Were_getting_Close/wgc5.png';
+import wgcimg6 from '../../src/assets/portfolio/_Packages/Were_getting_Close/wgc6.png';
+
 
 const Portfolio = () => {
 
@@ -43,12 +70,12 @@ const Portfolio = () => {
     },
   ];
   const mt_images = [
-    {url: "../src/assets/packages/moneyTree/MoneyTree1.png", blurb: ""},
-    {url: "../src/assets/packages/moneyTree/MoneyTree2.png", blurb: ""},
-    {url: "../src/assets/packages/moneyTree/MoneyTree3.png", blurb: ""},
-    {url: "../src/assets/packages/moneyTree/MoneyTree4.png", blurb: ""},
-    {url: "../src/assets/packages/moneyTree/MoneyTree5.png", blurb: ""},
-    {url: "../src/assets/packages/moneyTree/MoneyTree6.png", blurb: ""},
+    {url: moneyTree1, blurb: ""},
+    {url: moneyTree2, blurb: ""},
+    {url: moneyTree3, blurb: ""},
+    {url: moneyTree4, blurb: ""},
+    {url: moneyTree5, blurb: ""},
+    {url: moneyTree6, blurb: ""},
   ];
 
   // Positive Impact
@@ -64,13 +91,13 @@ const Portfolio = () => {
     },
   ];
   const pi_images = [
-    {url: "../src/assets/packages/positiveImpact/PIEmailTop.png", blurb: ""},
-    {url: "../src/assets/packages/positiveImpact/PIEmailMid.gif", blurb: ""},
-    {url: "../src/assets/packages/positiveImpact/PIEmailBody.png", blurb: "The upfront message teases THREE positive impact checks with the last check remaining a mystery until the user clicks through to the landing page."},
-    {url: "../src/assets/packages/positiveImpact/PIPkg1.png", blurb: "On load of the landing page, the user gets a pop-up message asking him to make a decision regarding how much the last positive impact check should be made out for if he wins from this notice. Johnny is choosing between three prize values: Cash for a Vacation, Cash for a new Car, or Cash towards a Charity."},
-    {url: "../src/assets/packages/positiveImpact/PIPkg2.png", blurb: "Once Johnny picks, he is asked to confirm his choice."},
-    {url: "../src/assets/packages/positiveImpact/PIPkg3.png", blurb: ""},
-    {url: "../src/assets/packages/positiveImpact/PIPkg4.png", blurb: "This was placed into an affinity mailing targeted to buyers who have shown an interest in kitchen items. We added a fun virtual recipe card that Johnny could print for free."},
+    {url: piEmailTop, blurb: ""},
+    {url: piEmailMid, blurb: ""},
+    {url: piEmailBod, blurb: "The upfront message teases THREE positive impact checks with the last check remaining a mystery until the user clicks through to the landing page."},
+    {url: positiveImpact1, blurb: "On load of the landing page, the user gets a pop-up message asking him to make a decision regarding how much the last positive impact check should be made out for if he wins from this notice. Johnny is choosing between three prize values: Cash for a Vacation, Cash for a new Car, or Cash towards a Charity."},
+    {url: positiveImpact2, blurb: "Once Johnny picks, he is asked to confirm his choice."},
+    {url: positiveImpact3, blurb: ""},
+    {url: positiveImpact4, blurb: "This was placed into an affinity mailing targeted to buyers who have shown an interest in kitchen items. We added a fun virtual recipe card that Johnny could print for free."},
   ];
 
   // Uncut Checks
@@ -86,12 +113,12 @@ const Portfolio = () => {
     },
   ];
   const uc_images = [
-    {url: "../src/assets/packages/uncutChecks/UCEmail.png", blurb: "The top of the email is attention-grabbing with an oversized prize statement overlapping the checks to emphasize the massive payout amount. We used minimal copy above the fold as a teaser and kept the letter informational and on the shorter side."},
-    {url: "../src/assets/packages/uncutChecks/UC1.png", blurb: "Landing Page: The user clicks through the email and sees a continuation of the uncut checks theme."},
-    {url: "../src/assets/packages/uncutChecks/UC2.png", blurb: "Call to order: We segmented the messaging here, targeting our lower tier of orderers, encouraging them to place a new order today to “level up” and start receiving bigger and better customer level benefits."},
-    {url: "../src/assets/packages/uncutChecks/UC3.png", blurb: ""},
-    {url: "../src/assets/packages/uncutChecks/UC4.png", blurb: "Supporting Assets: These assets are sprinkled throughout the lineup between products on tab 2 and 3, as a reminder to the user that their entry has not yet been submitted and they have to keep going to complete it."},
-    {url: "../src/assets/packages/uncutChecks/UC5.png", blurb: "Entry Confirmation Stamp"},
+    {url: UCEmail, blurb: "The top of the email is attention-grabbing with an oversized prize statement overlapping the checks to emphasize the massive payout amount. We used minimal copy above the fold as a teaser and kept the letter informational and on the shorter side."},
+    {url: UCimg1, blurb: "Landing Page: The user clicks through the email and sees a continuation of the uncut checks theme."},
+    {url: UCimg2, blurb: "Call to order: We segmented the messaging here, targeting our lower tier of orderers, encouraging them to place a new order today to “level up” and start receiving bigger and better customer level benefits."},
+    {url: UCimg3, blurb: ""},
+    {url: UCimg4, blurb: "Supporting Assets: These assets are sprinkled throughout the lineup between products on tab 2 and 3, as a reminder to the user that their entry has not yet been submitted and they have to keep going to complete it."},
+    {url: UCimg5, blurb: "Entry Confirmation Stamp"},
   ];
 
   // We're Getting Close
@@ -107,13 +134,13 @@ const Portfolio = () => {
     },
   ];
   const wgc_images = [
-    {url: "../src/assets/packages/wereGettingClose/wgc_Email.png", blurb: "E-Mail"},
-    {url: "../src/assets/packages/wereGettingClose/wgc1.png", blurb: "Landing Page: We used a driving animation here to help set the scene of a prize delivery. It's a dream sequence that outs the user in the driver's seat. This animation autostarts on load and continues for 4 stages until a hard with the call to action for Johnny to enter is presented."},
-    {url: "../src/assets/packages/wereGettingClose/wgc2.png", blurb: "We designed a custom billboard"},
-    {url: "../src/assets/packages/wereGettingClose/wgc3.png", blurb: ""},
-    {url: "../src/assets/packages/wereGettingClose/wgc4.png", blurb: "Balloons swaying in the breeze"},
-    {url: "../src/assets/packages/wereGettingClose/wgc5.png", blurb: "We continued the driving theme for the product section. Here we created a digital sign that switched out messaging in two stages."},
-    {url: "../src/assets/packages/wereGettingClose/wgc6.png", blurb: "Included targeted messaging for lapsed buyers"},
+    {url: wgcEmail, blurb: "E-Mail"},
+    {url: wgcimg1, blurb: "Landing Page: We used a driving animation here to help set the scene of a prize delivery. It's a dream sequence that outs the user in the driver's seat. This animation autostarts on load and continues for 4 stages until a hard with the call to action for Johnny to enter is presented."},
+    {url: wgcimg2, blurb: "We designed a custom billboard"},
+    {url: wgcimg3, blurb: ""},
+    {url: wgcimg4, blurb: "Balloons swaying in the breeze"},
+    {url: wgcimg5, blurb: "We continued the driving theme for the product section. Here we created a digital sign that switched out messaging in two stages."},
+    {url: wgcimg6, blurb: "Included targeted messaging for lapsed buyers"},
   ];
 
   return (
@@ -216,7 +243,7 @@ export default Portfolio
                                   
 //                 </ul>
 //             </section>
-//             {/* <section className="pfPackages">
+//             {/* <section className="pf_packages">
 //                 <div className="pkg_1">
 //                     <div className="pkg_breakdown">
 //                         <h2>Good Things Are Headed Your Way</h2>
