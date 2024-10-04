@@ -1,8 +1,8 @@
 
 .homepage{
-    min-width: 100vw;
+    /* min-width: 100vw; */
     height: 100vh;
-    min-width: 320px;
+    /* min-width: 320px; */
     min-height: 950px;
     background-image: url('../../assets/Background_Imgs/nick-morrison-unsplash.jpg');
     /* background-image: url('../assets/Background_Imgs/aaron-burden-unsplash.jpg'); */
@@ -74,7 +74,7 @@
 
     .card_Large{
         /* width: 850px; */
-        min-width: 320px;
+        /* min-width: 320px; */
         display: grid;
         background-color: rgba(121,106,80,.60);
         backdrop-filter: blur(15px);
